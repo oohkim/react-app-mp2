@@ -30,9 +30,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="footer-address">
+      {/* <div className="footer-address">
         <p><i className="bx bx-map"></i> 15-11 McArthur Highway, Angeles, Philippines 2009</p>
-      </div>
+      </div> */}
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} FitZone. All Rights Reserved.</p>
       </div>
