@@ -20,7 +20,7 @@ const Schedule = () => {
 
   return (
     <>
-    {/* <div className="overlay">
+      {/* <div className="overlay">
     </div> */}
       <Image
         src={classScheduleImage}
@@ -28,7 +28,6 @@ const Schedule = () => {
         fluid
         className="class-schedule-image"
       />
-
       <div className="class-schedule">
         <h2>Class Schedule</h2>
         <p>Check out our weekly class schedule below.</p>
@@ -58,7 +57,7 @@ const Schedule = () => {
       </div>
       <div className="additional-content">
         <h3>Additional Information</h3>
-        <p className="add">
+        <p>
           Welcome to our weekly class schedule! Here, you can find details about
           our classes, instructors, and more:
         </p>
@@ -66,25 +65,35 @@ const Schedule = () => {
         <h4>Class Descriptions:</h4>
         <ul>
           <li>
-            <strong>Aerobics:</strong> It's designed to improve cardiovascular fitness, endurance, and overall body strength.
+            <strong>Aerobics:</strong> It's designed to improve cardiovascular
+            fitness, endurance, and overall body strength.
           </li>
           <li>
-            <strong>Weight Lifting:</strong> It's an effective way to increase strength and improve body composition.
+            <strong>Weight Lifting:</strong> It's an effective way to increase
+            strength and improve body composition.
           </li>
           <li>
-            <strong>Cardio:</strong> They include activities like running, swimming, and cycling that elevate your heart rate and help burn calories.
+            <strong>Cardio:</strong> They include activities like running,
+            swimming, and cycling that elevate your heart rate and help burn
+            calories.
           </li>
           <li>
-            <strong>Yoga:</strong> Yoga is a mind-body practice that involves a combination of physical postures, breathing exercises, and meditation.
+            <strong>Yoga:</strong> Yoga is a mind-body practice that involves a
+            combination of physical postures, breathing exercises, and
+            meditation.
           </li>
           <li>
-            <strong>Body Building:</strong> It typically involves lifting heavy weights and following a structured workout plan.
+            <strong>Body Building:</strong> It typically involves lifting heavy
+            weights and following a structured workout plan.
           </li>
           <li>
-            <strong>Cycling:</strong> It's great for building leg strength and improving endurance.
+            <strong>Cycling:</strong> It's great for building leg strength and
+            improving endurance.
           </li>
           <li>
-            <strong>Stretching:</strong> They can be incorporated into warm-up and cool-down routines for other activities or done as a standalone practice.
+            <strong>Stretching:</strong> They can be incorporated into warm-up
+            and cool-down routines for other activities or done as a standalone
+            practice.
           </li>
         </ul>
 
