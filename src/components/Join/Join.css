@@ -1,0 +1,93 @@
+:root {
+    --primary: #e1193e;
+    --secondary: #0d6efd;
+}
+
+.Join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+    padding-bottom: 10rem;
+    gap: 2rem;
+}
+
+.left-j {
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.left-j>hr {
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--primary);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.right-j {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email-container {
+    display: flex;
+    gap: 1rem;
+    background-color: gray;
+    padding: 1rem 3rem;
+}
+
+.email-container>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: lightgray;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+.btn-j {
+    background-color: var(--primary);
+    color: #fff;
+    width: 20rem;
+}
+
+.btn-j:hover {
+  color: white;
+  background-color: var(--secondary);
+}
+
+
+@media screen and (max-width: 768px) {
+    .Join {
+      flex-direction: column;
+    }
+  
+    .left-j {
+      flex: none;
+    }
+  
+    .left-j hr {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .left-j div {
+      font-size: 18px;
+    }
+  
+    .right-j {
+      flex: none;
+      margin-top: 20px;
+    }
+  
+    .email-container {
+      max-width: 100%;
+    }
+  }

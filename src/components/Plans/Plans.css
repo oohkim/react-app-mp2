@@ -1,0 +1,136 @@
+:root {
+    --primary: #e1193e;
+    --secondary: #0d6efd;
+}
+
+.plans-container {
+    /* margin-top: 2rem; */
+    padding: 0 2rem;
+    margin-bottom: 13rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+/* .skewed-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e1193e;
+    transform-origin: top right;
+    transform: skewY(-7deg);
+    z-index: -1;
+} */
+  
+.program-header p {
+    font-size: 30px;
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+.program-description p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    color: white;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 18rem;
+}
+
+.plan:nth-child(2) {
+    background-color: var(--primary);
+    color: white;
+    transform: scale(1.1);
+}
+
+.plans .dumbbell {
+    font-size: 2rem;
+    color: black;
+}
+
+.plan>:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(3) {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(5) {
+    font-size: 0.8rem;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.features .tick {
+    font-size: 18px;
+}
+
+.plan:nth-child(2) .dumbbell {
+    color: black;
+}
+
+.btn {
+    background-color: white;
+}
+
+.plan:nth-child(2) .btn {
+    color: var(--primary);
+    background-color: white;
+}
+
+.plan:nth-child(2) .btn:hover {
+    color: white;
+    background-color: var(--secondary);
+}
+
+.plan:nth-child(1) .btn:hover, .plan:nth-child(3) .btn:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .plans {
+      flex-direction: column;
+    }
+  
+    .features {
+      margin-top: 5px;
+    }
+  }
