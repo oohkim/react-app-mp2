@@ -13,6 +13,11 @@
     object-fit: cover;
 }
 
+.class-schedule h2 {
+  color: var(--primary);
+  font-size: 24px;
+}
+
 .class-schedule h2, p {
     display: flex;
     align-items: center;
@@ -72,6 +77,11 @@ td.time-column {
     flex-direction: column;
     margin: 7rem 0;
     gap: 1rem;
+}
+
+.additional-content h3 {
+  color: black;
+  font-size: 24px;
 }
 
 @media (max-width: 968px) {

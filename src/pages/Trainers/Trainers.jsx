@@ -1,14 +1,20 @@
 import React from "react";
 import "./Trainers.css";
 import trainersData from "./trainersData";
-import Hero from '../../components/Hero/Hero';
+import { Image, Button } from "react-bootstrap";
+import ourCoach from "../../assets/Our Coach.png";
+import Join from "../../components/Join/Join";
 
 const Trainers = () => {
   return (
     <>
-    <Hero />
+      <Image src={ourCoach} alt="Our Coach" fluid className="coach-image" />
       <div className="trainers-container">
-        <h2>Our Trainers</h2>
+        <h2>___OUR TRAINERS</h2>
+        <p>
+          Meet our dedicated team of fitness experts who are here to help you
+          achieve your fitness goals.
+        </p>
         <div className="trainer-list">
           {trainersData.map((trainer, index) => (
             <div className="trainer-card" key={index}>
@@ -17,12 +23,14 @@ const Trainers = () => {
                 alt={trainer.name}
                 className="trainer-image"
               />
+              <Button className="enroll-button">Enroll</Button>
               <h3>{trainer.name}</h3>
-              <p>{trainer.specialty}</p>
+              <p className="trainers-p">{trainer.specialty}</p>
             </div>
           ))}
         </div>
       </div>
+      <Join />
     </>
   );
 };

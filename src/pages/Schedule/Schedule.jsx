@@ -29,7 +29,7 @@ const Schedule = () => {
         className="class-schedule-image"
       />
       <div className="class-schedule">
-        <h2>Class Schedule</h2>
+        <h2>___CLASS SCHEDULES</h2>
         <p>Check out our weekly class schedule below.</p>
         <div className="table-responsive">
           <Table striped bordered hover className="my-table">

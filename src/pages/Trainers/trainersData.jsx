@@ -1,12 +1,12 @@
 // trainersData.js
 
-import johnSmithImage from '../../assets/bmi-image-removebg-preview.png'; // Import the image file
-import lisaJohnsonImage from '../../assets/bmi-image-removebg-preview.png';
-import anotherTrainerImage from '../../assets/bmi-image-removebg-preview.png'; // Import the image file
+import johnSmithImage from '../../assets/yoga.png'; // Import the image file
+import lisaJohnsonImage from '../../assets/zumba.png';
+import anotherTrainerImage from '../../assets/fitness.png'; // Import the image file
 
 const trainersData = [
   {
-    name: 'John Smith',
+    name: 'Kimberly Harris',
     specialty: 'Certified Yoga Instructor',
     image: johnSmithImage, // Use the imported image
   },
@@ -16,7 +16,7 @@ const trainersData = [
     image: lisaJohnsonImage, // Use the imported image
   },
   {
-    name: 'John Doe',
+    name: 'Michael Brown',
     specialty: 'Fitness Expert',
     image: anotherTrainerImage, // Use the imported image for the new trainer
   },
