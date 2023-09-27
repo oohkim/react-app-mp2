@@ -4,7 +4,7 @@ import { plansData } from "./plansData.jsx";
 
 const Plans = () => {
   return (
-    <div className="plans-container">
+    <div className="plans-container" id="plans">
       <div className="skewed-background"></div>
       <div className="program-header">
         <p>___DISCOVER OUR FITNESS PLANS</p>

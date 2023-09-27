@@ -1,0 +1,40 @@
+:root {
+    --primary: #e1193e;
+    --secondary: #0d6efd;
+}
+
+.class-schedule {
+    margin: 5rem;
+}
+
+.my-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.my-table th {
+    background-color: var(--secondary);
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-align: left;
+}
+
+.my-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.my-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+td.time-column {
+    background-color: var(--primary);
+    color: white;
+}

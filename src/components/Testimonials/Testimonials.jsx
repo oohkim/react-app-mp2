@@ -32,7 +32,7 @@ const Testimonials = () => {
                 ? setSelected(tLength - 1)
                 : setSelected((prev) => prev - 1);
             }}
-            class="bx bxs-left-arrow-circle"
+            className="bx bxs-left-arrow-circle"
           ></i>
           <i
             onClick={() => {
@@ -40,7 +40,7 @@ const Testimonials = () => {
                 ? setSelected(0)
                 : setSelected((prev => prev + 1));
             }}
-            class="bx bxs-right-arrow-circle"
+            className="bx bxs-right-arrow-circle"
           ></i>
         </div>
       </div>

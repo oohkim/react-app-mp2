@@ -1,24 +1,19 @@
 import './App.css';
 import React from 'react';
-import Hero from './components/Hero/Hero';
-import About from './components/About/About';
-import Classes from './components/Classes/Class';
-import Testimonials from './components/Testimonials/Testimonials'
-import Plans from './components/Plans/Plans'
-import BMI from './components/BMI/Bmi';
-import Join from './components/Join/Join';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import Schedule from './pages/Schedule/Schedule';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <About />
-      <Classes />
-      <Plans />
-      <BMI />
-      <Testimonials />
-      <Join />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/schedule" element={<Schedule />} />
+      </Routes>
       <Footer />
     </div>
   );

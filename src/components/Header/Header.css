@@ -3,6 +3,11 @@
     --secondary: #0d6efd;
 }
 
+.header {
+    position: absolute;
+    width: 100%;
+}
+
 .navbar-toggler-icon {
     background-color: white;
 }

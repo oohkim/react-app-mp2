@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Navbar, Nav, Container, Button, Modal } from "react-bootstrap";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [showModal, setShowModal] = useState(false);
@@ -90,12 +91,12 @@ const Header = () => {
             >
               <ul className="navbar-nav mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     HOME
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="">
+                  <a className="nav-link" href="#about">
                     ABOUT
                   </a>
                 </li>
@@ -105,14 +106,14 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#plans">
                     PLANS
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/schedule">
                     SCHEDULES
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">

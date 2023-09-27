@@ -11,7 +11,7 @@ const About = () => {
   };
 
   return (
-    <section className="about">
+    <section className="about" id="about">
       <img src={image1} alt="" />
       <div className="article">
         <h5>____ ABOUT OUR GYM</h5>

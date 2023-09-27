@@ -1,0 +1,55 @@
+// scheduleData.js
+const scheduleData = [
+    {
+      time: '8:00 AM - 9:00 AM',
+      Monday: 'Body Building',
+      Tuesday: 'Weight Lifting',
+      Wednesday: '',
+      Thursday: 'Yoga',
+      Friday: 'Aerobics',
+      Saturday: 'Cycling',
+      Sunday: 'Stretching',
+    },
+    {
+        time: '10:00 AM - 11:00 AM',
+        Monday: 'Weight Lifting',
+        Tuesday: 'Body Building',
+        Wednesday: 'Cardio',
+        Thursday: 'Yoga',
+        Friday: 'Aerobics',
+        Saturday: 'Cycling',
+        Sunday: 'Stretching',
+      },
+      {
+        time: '1:00 PM - 2:00PM',
+        Monday: '',
+        Tuesday: 'Weight Lifting',
+        Wednesday: 'Cardio',
+        Thursday: 'Yoga',
+        Friday: 'Aerobics',
+        Saturday: 'Cycling',
+        Sunday: 'Stretching',
+      },
+      {
+        time: '3:00 PM - 5:00PM',
+        Monday: 'Aerobics',
+        Tuesday: 'Weight Lifting',
+        Wednesday: 'Cardio',
+        Thursday: 'Yoga',
+        Friday: 'Body Building',
+        Saturday: 'Cycling',
+        Sunday: 'Stretching',
+      },
+      {
+        time: '7:00 PM - 9:00PM',
+        Monday: 'Body Building',
+        Tuesday: 'Weight Lifting',
+        Wednesday: 'Cardio',
+        Thursday: '',
+        Friday: 'Aerobics',
+        Saturday: 'Cycling',
+        Sunday: 'Stretching',
+      },
+  ];
+  
+  export default scheduleData;
