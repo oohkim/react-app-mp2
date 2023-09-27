@@ -1,5 +1,5 @@
 import Hero from './components/Hero/Hero';
-import Schedule from './pages/Schedule.Schedule';
+import Schedule from './pages/Schedule/Schedule';
 
 const routes = [
     {
