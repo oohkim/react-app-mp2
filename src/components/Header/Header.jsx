@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import { Navbar, Nav, Container, Button, Modal } from "react-bootstrap";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
@@ -101,9 +100,9 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/classes">
                     CLASSES
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#plans">

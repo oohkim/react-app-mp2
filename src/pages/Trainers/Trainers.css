@@ -45,19 +45,23 @@ p.trainers-p {
 }
 
 .enroll-button {
-    display: none; /* Hide the button by default */
+    display: none;
+    /* Hide the button by default */
     position: absolute;
-    top: 10px; /* Adjust the top position as needed */
-    right: 10px; /* Adjust the right position as needed */
-    z-index: 1; /* Ensure the button is above the image */
-    background-color: var(--secondary); /* Use your secondary color for the button */
+    top: 10px;
+    /* Adjust the top position as needed */
+    right: 0px;
+    /* Adjust the right position as needed */
+    z-index: 1;
+    /* Ensure the button is above the image */
+    background-color: var(--secondary);
+    /* Use your secondary color for the button */
     color: white;
-  }
-  
-  .trainer-card:hover .enroll-button {
-    display: block; /* Show the button on hover */
-  }
-  
+}
+
+.trainer-card:hover .enroll-button {
+    display: block;
+}
 
 .trainer-image {
     max-width: 100%;

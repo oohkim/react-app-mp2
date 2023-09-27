@@ -1,0 +1,20 @@
+/* Classes.css */
+
+.classes-container {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.class-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+}
+
+.class-card {
+  width: 100%;
+}
+
+/* Add more styles as needed */

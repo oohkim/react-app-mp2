@@ -23,7 +23,7 @@ const Trainers = () => {
                 alt={trainer.name}
                 className="trainer-image"
               />
-              <Button className="enroll-button">Enroll</Button>
+              <Button className="enroll-button">Join Us</Button>
               <h3>{trainer.name}</h3>
               <p className="trainers-p">{trainer.specialty}</p>
             </div>
