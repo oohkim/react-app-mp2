@@ -1,14 +1,19 @@
 import React from "react";
 import "./Classes.css";
 import classesData from "./classesData";
-import { Card, Button } from "react-bootstrap";
-import Hero from "../../components/Hero/Hero";
+import { Image, Card, Button } from "react-bootstrap";
 import Join from "../../components/Join/Join";
+import gymClasses from "../../assets/gym-classes.png";
 
 const Classes = () => {
   return (
     <>
-      <Hero />
+      <Image
+        src={gymClasses}
+        alt="Gym Classes"
+        fluid
+        className="class-schedule-image"
+      />
       <div className="classes-container">
         <h2>___OUR CLASSES</h2>
         <p>Welcome to our variety of classes to help you achieve your fitness goals. Join Now!</p>
