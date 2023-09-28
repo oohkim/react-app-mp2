@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './bmi.css';
+import './Bmi.css';
 import bmiImage from '../../assets/bmi-image-removebg-preview.png';
 import axios from 'axios';
 
