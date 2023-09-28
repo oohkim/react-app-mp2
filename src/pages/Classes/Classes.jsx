@@ -1,28 +1,35 @@
 import React from "react";
-import "./Classes.css"; // Create a corresponding CSS file
-import classesData from "./classesData"; // Import data for your classes
-import { Card, Button } from "react-bootstrap"; // Use Bootstrap components if needed
-import Hero from '../../components/Hero/Hero'
+import "./Classes.css";
+import classesData from "./classesData";
+import { Card, Button } from "react-bootstrap";
+import Hero from "../../components/Hero/Hero";
+import Join from "../../components/Join/Join";
 
 const Classes = () => {
   return (
     <>
-    <Hero />
-        <div className="classes-container">
-      <h2>Our Classes</h2>
-      <div className="class-list">
-        {classesData.map((classItem, index) => (
-          <Card key={index} className="class-card">
-            <Card.Img variant="top" src={classItem.image} alt={classItem.title} />
-            <Card.Body>
-              <Card.Title>{classItem.title}</Card.Title>
-              <Card.Text>{classItem.description}</Card.Text>
-              <Button variant="primary">Enroll</Button>
-            </Card.Body>
-          </Card>
-        ))}
+      <Hero />
+      <div className="classes-container">
+        <h2>___OUR CLASSES</h2>
+        <p>Welcome to our variety of classes to help you achieve your fitness goals. Join Now!</p>
+        <div className="class-list">
+          {classesData.map((classItem, index) => (
+            <Card key={index} className="classes-card">
+              <div className="hover-button">
+                <Button variant="secondary">Mon-Fri <br />8am - 9am</Button>
+              </div>
+              <Card.Img variant="top" src={classItem.image} alt={classItem.title} />
+              <Card.Body>
+                <Card.Title>{classItem.title}</Card.Title>
+                <Card.Text>{classItem.description}</Card.Text>
+                <Card.Text><strong>Price:</strong> {classItem.price}</Card.Text>
+                <Button variant="primary">Book Now</Button>
+              </Card.Body>
+            </Card>
+          ))}
+        </div>
       </div>
-    </div>
+      <Join />
     </>
   );
 };
