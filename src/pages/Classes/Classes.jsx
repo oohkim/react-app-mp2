@@ -16,7 +16,7 @@ const Classes = () => {
       />
       <div className="classes-container">
         <h2>___OUR CLASSES</h2>
-        <p>Welcome to our variety of classes to help you achieve your fitness goals. Join Now!</p>
+        <p className="all-classesp">Welcome to our variety of classes to help you achieve your fitness goals. Join Now!</p>
         <div className="class-list">
           {classesData.map((classItem, index) => (
             <Card key={index} className="classes-card">

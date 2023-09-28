@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './About.css';
-
+import { Link } from 'react-router-dom'
 import image1 from '../../assets/pexels-photo-12472019.jpeg';
 
 const About = () => {
@@ -28,18 +28,18 @@ const About = () => {
         <p className={`more ${isExpanded ? '' : 'hide'}`}>
         Join us today, and let's embark on a journey towards a healthier, happier you. Together, we'll sweat, strive, and succeed!
           <div className={`icon-links ${isExpanded ? '' : 'hide'}`}>
-            <a className="icon-link" href="#">
+            <Link className="icon-link" to="/classes">
               <i className="bx bx-right-arrow-alt"></i>
               MEN FITNESS AND WORKOUT
-            </a>
-            <a className="icon-link" href="#">
+            </Link>
+            <Link className="icon-link" to="/classes">
               <i className="bx bx-right-arrow-alt"></i>
               WOMEN FITNESS AND WORKOUT
-            </a>
-            <a className="icon-link" href="#">
+            </Link>
+            <Link className="icon-link" to="/classes">
               <i className="bx bx-right-arrow-alt"></i>
               PERSONAL TRAININGS
-            </a>
+            </Link>
           </div>
         </p>
         <button onClick={toggleReadMore}>

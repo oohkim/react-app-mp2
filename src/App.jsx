@@ -8,6 +8,7 @@ import Trainers from './pages/Trainers/Trainers';
 import Classes from './pages/Classes/Classes';
 import { Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <div className="App">

@@ -11,6 +11,7 @@ const Header = () => {
     setShowModal(!showModal);
   };
 
+
   return (
     <div className="header">
       <div className="nav-bar">
@@ -120,7 +121,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="#join-us">
                     CONTACT
                   </a>
                 </li>

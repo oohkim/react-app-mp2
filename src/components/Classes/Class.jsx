@@ -1,9 +1,9 @@
 import React from 'react';
 import './Class.css';
-
+import { Link } from 'react-router-dom';
 import image1 from '../../assets/class1.jpeg';
-import image2 from '../../assets/class2.jpeg'
-import image3 from '../../assets/class3.jpeg'
+import image2 from '../../assets/class2.jpeg';
+import image3 from '../../assets/class3.jpeg';
 
 import backgroundImage from '../../assets/classbg.jpeg';
 
@@ -45,10 +45,10 @@ const Classes = () => {
                     </div>
                 </div>
             </div>
-            <a className="class-link" href="#">
+            <Link className="class-link" to="/classes">
                 VIEW ALL CLASSES
                 <i className='bx bx-right-arrow-alt'></i>
-            </a>
+            </Link>
             <div className="promo">
                 <h1>7 days training for free</h1>
                 <p>Complete the training session with us, surely you will be satisfied with the results!</p>
