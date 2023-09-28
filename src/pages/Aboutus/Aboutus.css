@@ -23,7 +23,7 @@
 }
 
 #team {
-    padding-bottom: 11rem;
+    padding-bottom: 6rem;
 }
 
 .team-container {
@@ -96,3 +96,28 @@
 /* .social-links a:hover {
     color: var(--secondary);
   } */
+
+.join-team {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.join-team h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+.join-team p {
+    font-size: 1rem;
+}
+
+.join-team a {
+    color: var(--secondary);
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.join-team a:hover {
+    color: var(--primary);
+}

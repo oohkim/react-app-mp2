@@ -1,6 +1,8 @@
 import React from "react";
 import "./Aboutus.css";
 // import aboutImage from "../../assets/yoga.png";
+import { Image } from "react-bootstrap";
+import aboutUsImage from "../../assets/aboutus.png";
 import Ceo from "../../assets/ceo.jpeg";
 import Marketing from "../../assets/marketing.jpeg";
 import Head from "../../assets/head.jpeg";
@@ -9,7 +11,12 @@ import Hero from "../../components/Hero/Hero";
 const AboutUs = () => {
   return (
     <>
-      <Hero />
+      <Image
+        src={aboutUsImage}
+        alt="About Us"
+        fluid
+        className="class-schedule-image"
+      />
       <section id="aboutus">
         <div className="about-container">
           <div className="about-content">
@@ -98,6 +105,13 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="join-team">
+          <h3>Join Our Team!</h3>
+          <p>
+            If you're passionate about fitness and want to be a part of our
+            team, please email us at&nbsp;<a href="#"> fitzone@gmail.com</a>.
+          </p>
         </div>
       </section>
     </>
