@@ -15,12 +15,12 @@ const Hero = () => {
       <Header />
 
       <Carousel
-        interval={1000}
+        interval={2000}
         className="carousel"
         controls={false}
         indicators={false}
       >
-        <Carousel.Item className="carousel-item" interval={1000}>
+        <Carousel.Item className="carousel-item" interval={2000}>
           <img src={image1} className="d-block w-100" alt="..." />
           <Carousel.Caption className="carousel-caption">
             <h3>SHAPE YOUR PERFECT BODY</h3>
@@ -35,8 +35,8 @@ const Hero = () => {
             </a>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="carousel-item" interval={1000}>
-          <img src={image2} className="d-block w-100" alt="..." />
+        <Carousel.Item className="carousel-item" interval={2000}>
+          <img src={image3} className="d-block w-100" alt="..." />
           <Carousel.Caption className="carousel-caption">
             <h3>INCREASE YOUR MUSCLE POWER</h3>
             <p>
@@ -50,8 +50,8 @@ const Hero = () => {
             </a>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="carousel-item" interval={1000}>
-          <img src={image3} className="d-block w-100" alt="..." />
+        <Carousel.Item className="carousel-item" interval={2000}>
+          <img src={image2} className="d-block w-100" alt="..." />
           <Carousel.Caption className="carousel-caption">
             <h3>
               YOU ONLY FAIL, <br /> WHEN YOU STOP TRYING

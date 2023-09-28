@@ -73,7 +73,7 @@ const AboutUs = () => {
           <div className="team-cards">
             <div className="team-card">
               <img src={Ceo} alt="Team Member 1" />
-              <h3>John Doe</h3>
+              <h3>Ethan Foster</h3>
               <p>Co-Founder & CEO</p>
               <p>Passionate about fitness and leadership.</p>
               <div className="social-links">
@@ -84,7 +84,7 @@ const AboutUs = () => {
             </div>
             <div className="team-card">
               <img src={Marketing} alt="Team Member 2" />
-              <h3>Jane Smith</h3>
+              <h3>Scarlett Wright</h3>
               <p>Marketing Director</p>
               <p>Bringing creative ideas to fitness promotion.</p>
               <div className="social-links">
@@ -95,7 +95,7 @@ const AboutUs = () => {
             </div>
             <div className="team-card">
               <img src={Head} alt="Team Member 1" />
-              <h3>John Doe</h3>
+              <h3>Andrew Turner</h3>
               <p>Head Operations</p>
               <p>Ensuring smooth gym operations.</p>
               <div className="social-links">
