@@ -18,8 +18,8 @@
   font-size: 24px;
 }
 
-h2.class-schedule ,
-p.class-schedule {
+.class-schedule h2 ,
+.class-schedule p {
   display: flex;
   align-items: center;
   justify-content: center;
