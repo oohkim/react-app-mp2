@@ -1,10 +1,8 @@
-// Schedule.jsx
 import React from "react";
 import Table from "react-bootstrap/Table";
 import scheduleData from "./scheduleData";
 import "./Schedule.css";
 import { Image } from "react-bootstrap";
-// import Hero from "../../components/Hero/Hero";
 import classScheduleImage from "../../assets/SCHEDULES.png";
 
 const Schedule = () => {

@@ -25,7 +25,7 @@
     transform: skewY(-7deg);
     z-index: -1;
 } */
-  
+
 .program-header p {
     font-size: 30px;
     color: var(--primary);
@@ -120,7 +120,8 @@
     background-color: var(--secondary);
 }
 
-.plan:nth-child(1) .btn:hover, .plan:nth-child(3) .btn:hover {
+.plan:nth-child(1) .btn:hover,
+.plan:nth-child(3) .btn:hover {
     background-color: var(--primary);
     color: white;
 }
@@ -131,10 +132,10 @@
 
 @media screen and (max-width: 768px) {
     .plans {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .features {
-      margin-top: 5px;
+        margin-top: 5px;
     }
-  }
+}

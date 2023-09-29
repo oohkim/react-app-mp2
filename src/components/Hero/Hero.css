@@ -71,10 +71,8 @@
     text-decoration: none;
 }
 
-/* Your existing styles */
 
 @media (max-width: 798px) {
-    /* Adjust styles for screens with a maximum width of 768px */
     .carousel-caption h3 {
         font-size: 35px;
     }
@@ -90,7 +88,6 @@
 }
 
 @media (max-width: 576px) {
-    /* Adjust styles for screens with a maximum width of 576px */
     .carousel-caption h3 {
         font-size: 20px;
     }

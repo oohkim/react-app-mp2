@@ -1,4 +1,3 @@
-// scheduleData.js
 const scheduleData = [
     {
       time: '8:00 AM - 9:00 AM',

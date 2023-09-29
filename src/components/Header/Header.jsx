@@ -11,7 +11,6 @@ const Header = () => {
     setShowModal(!showModal);
   };
 
-
   return (
     <div className="header">
       <div className="nav-bar">
@@ -130,8 +129,8 @@ const Header = () => {
                 <button
                   className="btn btn-outline-success ml-2"
                   type="button"
-                  data-bs-toggle="modal" // Add this attribute to trigger the modal
-                  data-bs-target="#membershipModal" // Add this attribute with the modal's ID
+                  data-bs-toggle="modal"
+                  data-bs-target="#membershipModal"
                 >
                   Become a member
                 </button>

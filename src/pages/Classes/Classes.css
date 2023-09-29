@@ -81,13 +81,13 @@ h2 {
 
 .hover-button {
   position: absolute;
-  top: 10px; /* Adjust the top position as needed */
-  right: 10px; /* Adjust the right position as needed */
-  z-index: 1; /* Ensure the button is on top of other elements */
-  opacity: 0; /* Set initial opacity to 0 to hide the button */
-  transition: opacity 0.2s ease-in-out; /* Add a smooth fade-in transition */
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .classes-card:hover .hover-button {
-  opacity: 1; /* Show the button with full opacity when hovering over the card */
+  opacity: 1;
 }

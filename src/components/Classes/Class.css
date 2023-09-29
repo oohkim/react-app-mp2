@@ -116,25 +116,23 @@ h1.classes-desc {
     opacity: 0;
 }
 
-
-/* Add this media query to make the cards stack in columns on smaller screens */
 @media (max-width: 768px) {
     .classes {
         height: 1200px;
     }
+
     .card-container {
         flex-direction: column;
-        align-items: center; /* Center-align cards on smaller screens */
+        align-items: center;
     }
-  
+
     .card {
-        width: 90%; /* Adjust the card width for smaller screens */
-        max-width: 300px; /* Set a maximum card width */
-        height: auto; /* Allow the card height to adjust based on content */
-        margin: 10px auto; /* Center-align and add spacing between cards */
-      }
-  }
-  
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 10px auto;
+    }
+}
 
 .button {
     background-color: #007bff;
@@ -187,9 +185,7 @@ h1.classes-desc {
     color: white;
 }
 
-.promo h1, .promo p {
+.promo h1,
+.promo p {
     color: white;
 }
-
-
-

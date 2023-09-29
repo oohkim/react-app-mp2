@@ -38,7 +38,7 @@ const Testimonials = () => {
             onClick={() => {
               selected === tLength - 1
                 ? setSelected(0)
-                : setSelected((prev => prev + 1));
+                : setSelected((prev) => prev + 1);
             }}
             className="bx bxs-right-arrow-circle"
           ></i>
